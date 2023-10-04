@@ -33,7 +33,7 @@
 
 	<properties>
 		<connector.dir>kafka</connector.dir>
-		<kafka.client.version>3.3.2</kafka.client.version>
+		<kafka.client.version>3.6.0</kafka.client.version>
 	</properties>
 
 	<repositories>
