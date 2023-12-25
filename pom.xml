@@ -73,7 +73,7 @@
 		<hadoop.binary.version>2.7</hadoop.binary.version>
 		<jackson.version>2.12.6</jackson.version>
 		<fastjson.version>1.2.83</fastjson.version>
-		<hutool.version>5.8.4</hutool.version>
+		<hutool.version>5.8.12</hutool.version>
 		<protostuff.version>1.8.0</protostuff.version>
 		<avro.version>1.10.0</avro.version>
 		<codec.version>1.13</codec.version>
