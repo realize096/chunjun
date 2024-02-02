@@ -15,6 +15,6 @@
 # specific language governing permissions and limitations
 # under the License.
 
-FROM redis:6.2.5
+FROM redis:6.2.14
 
 LABEL maintainer="dtstack"
