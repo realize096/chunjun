@@ -32,7 +32,7 @@
 	<name>ChunJun : Connector : HBase2</name>
 
 	<properties>
-		<hbase.version>2.2.0</hbase.version>
+		<hbase.version>2.5.8-hadoop3</hbase.version>
 		<connector.dir>hbase2</connector.dir>
 	</properties>
 
