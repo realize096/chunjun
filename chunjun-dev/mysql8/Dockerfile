@@ -15,6 +15,6 @@
 # specific language governing permissions and limitations
 # under the License.
 
-FROM mysql:8.0
+FROM mysql:8.3
 
 LABEL maintainer="dtstack"
