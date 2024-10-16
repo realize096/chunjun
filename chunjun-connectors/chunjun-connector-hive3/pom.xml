@@ -32,7 +32,7 @@
 	<name>ChunJun : Connector : Hive3</name>
 
 	<properties>
-		<hive.version>3.1.2</hive.version>
+		<hive.version>4.0.0</hive.version>
 		<connector.dir>hive3</connector.dir>
 	</properties>
 
@@ -575,12 +575,10 @@
 								</relocation>
 							</relocations>
 							<transformers>
-								<transformer
-									implementation="org.apache.maven.plugins.shade.resource.DontIncludeResourceTransformer">
+								<transformer implementation="org.apache.maven.plugins.shade.resource.DontIncludeResourceTransformer">
 									<resource>META-INF/services/java.sql.Driver</resource>
 								</transformer>
-								<transformer
-									implementation="org.apache.maven.plugins.shade.resource.IncludeResourceTransformer">
+								<transformer implementation="org.apache.maven.plugins.shade.resource.IncludeResourceTransformer">
 									<resource>META-INF/services</resource>
 									<file>java.sql.hive2.Driver</file>
 								</transformer>
