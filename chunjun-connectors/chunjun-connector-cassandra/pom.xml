@@ -32,7 +32,7 @@
 	<name>ChunJun : Connector : Cassandra</name>
 
 	<properties>
-		<cassandra.driver.version>3.11.0</cassandra.driver.version>
+		<cassandra.driver.version>4.0.0</cassandra.driver.version>
 		<connector.dir>cassandra</connector.dir>
 	</properties>
 
